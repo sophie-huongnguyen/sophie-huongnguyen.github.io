@@ -1,0 +1,14 @@
+[
+  {
+    "listing": "/index.html",
+    "items": [
+      "/productivity/intro.html"
+    ]
+  },
+  {
+    "listing": "/productivity/intro.html",
+    "items": [
+      "/productivity/documentation_ml_basic.html"
+    ]
+  }
+]

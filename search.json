@@ -2,15 +2,50 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "website_template",
+    "title": "Sophie Nguyen",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "Welcome to my personal website.\nI am Sophie, a data scientist. I love working with data, finding insights, generating forecasts, and forming practical recommendations.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProductivity\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "productivity/documentation_ml_basic.html",
+    "href": "productivity/documentation_ml_basic.html",
+    "title": "A documentation template for machine learning model",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "The business context around the project\nUsages of the project target\n\nThe scope of the project such as only applicable to selected lines of business or product groups\n\nExisting process\n\nProblems/concerns with the current process\nPerformance of the current process\n\nExpectations of the project deliveries\nEvaluation metrics of the project outcomes\nUpstream/Downstream tools and models"
+  },
+  {
+    "objectID": "productivity/documentation_ml_basic.html#business-background",
+    "href": "productivity/documentation_ml_basic.html#business-background",
+    "title": "A documentation template for machine learning model",
+    "section": "",
+    "text": "The business context around the project\nUsages of the project target\n\nThe scope of the project such as only applicable to selected lines of business or product groups\n\nExisting process\n\nProblems/concerns with the current process\nPerformance of the current process\n\nExpectations of the project deliveries\nEvaluation metrics of the project outcomes\nUpstream/Downstream tools and models"
+  },
+  {
+    "objectID": "productivity/documentation_ml_basic.html#modeling",
+    "href": "productivity/documentation_ml_basic.html#modeling",
+    "title": "A documentation template for machine learning model",
+    "section": "Modeling",
+    "text": "Modeling\n\nConceptual model or guidances from subject-matter experts (SMEs)\n\nIdeas and business process theory recommended by SMEs\n\nDefine of the model target/outcome\nDefine of the observational unit\nGuide the process of looking for useful data sources\nProvide some guidance about sensible or expected relationships among features or with the target\n\nThe context or subject journey that can affect the target of interest\n\n\n\nData\n\nList and short descriptions of all data sources used.\nData processing notes\n\nDefine the model target/outcome in clear technical definition (if needed to be created)\nDescribe the data processing pipeline\n\nTrain and test set splitting process\n\n\n\nData insights\n\nDescription of the training data period/sample\n\nCounts\nTime period if there is a time dimension\n\nSummary and highlights about the target\n\nDistribution\nMissingness\n\nSummary and highlights about the independent variables\n\nDistribution\nMissingness\n\nAny features generated and why\nAny key potential (predictive) relationships among features and with the target\n\n\n\nModel methodology\n\nA summary of the model ethology\nCitations to the theoretical models\nModels tested\nModel selection\nVariable selection\nHyper-parameter tuning\n\n\n\nModel diagnostics\n\nFeature importance\nTraining errors\n\nError distribution\n\nQQ-plot\n\nEvaluation metrics\nError versus predicted\nError versus actual\nError versus key features\nErrors versus time/index (if autocorrelation is a suspected)\n\n\n\n\nModel interpretability\n\nModel predictions for selected profiles"
+  },
+  {
+    "objectID": "productivity/documentation_ml_basic.html#model-implementation",
+    "href": "productivity/documentation_ml_basic.html#model-implementation",
+    "title": "A documentation template for machine learning model",
+    "section": "Model implementation",
+    "text": "Model implementation\n\nData input\n\nList all the data sources needed to provide data inputs for model run\nSummary of any concerns about data gaps between training and production environment ### Production environment\nDiagram or description of the production pipeline\nBack-up plan for model failures\n\n\n\nModel production\n\nA summary of the model production process and all inputs needed.\nThe documentation should be sufficient for an independent ML Ops team to be able to put the model into production with minimal in-person guidance."
+  },
+  {
+    "objectID": "productivity/documentation_ml_basic.html#model-monitoring-and-maintenance",
+    "href": "productivity/documentation_ml_basic.html#model-monitoring-and-maintenance",
+    "title": "A documentation template for machine learning model",
+    "section": "Model monitoring and maintenance",
+    "text": "Model monitoring and maintenance\n\nModel monitoring\n\nMonitoring metrics\nThresholds and actions recommended, for example\n\nIf RMSE is below the lowest threshold, no action needed\nIf RMSE is above the lowest threshold, investigate the cause\nIf RMSE goes over certain levels, immediately stop the model in production and move to back-up plan\n\n\n\n\nModel automatic update/retraining schedule\n\nProduction setup to support automatic training\n\nTest set evaluation\nCompare current versus new model\n\nAnalysis results supported this automatic updating schedule"
+  },
+  {
+    "objectID": "productivity/intro.html",
+    "href": "productivity/intro.html",
+    "title": "Productivity",
+    "section": "",
+    "text": "Idea, tools, and code templates to help jump-start a modeling project\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA documentation template for machine learning model\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]
