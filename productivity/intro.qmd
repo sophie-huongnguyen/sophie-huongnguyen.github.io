@@ -1,0 +1,12 @@
+---
+title: "Productivity"
+listing:
+  contents:
+    - "*.qmd"
+    - "!in_development_*.qmd"
+    - "!supporting_material_*.qmd"
+  type: grid
+image: 'productivity.png'
+---
+
+Idea, tools, and code templates to help jump-start a modeling project

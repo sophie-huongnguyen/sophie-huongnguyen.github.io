@@ -2,12 +2,12 @@ project:
   type: website
 
 website:
-  title: "website_template"
+  title: "Sophie Nguyen"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - productivity/intro.qmd
 
 format:
   html:

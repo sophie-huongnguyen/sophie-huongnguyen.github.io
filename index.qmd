@@ -1,11 +1,10 @@
 ---
-title: "website_template"
+listing:
+  contents:
+    - "*intro.qmd"
+  type: grid
 ---
 
-This is a Quarto website.
+Welcome to my personal website.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
+I am Sophie, a data scientist. I love working with data, finding insights, generating forecasts, and forming practical recommendations.

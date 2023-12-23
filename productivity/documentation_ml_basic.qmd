@@ -1,0 +1,112 @@
+---
+title: "A documentation template for machine learning model"
+format: html
+editor: visual
+keywords: 
+  - 'documentation'
+  - 'template'
+  - 'ML'
+bibliography: '../references.bib'
+image: 'documentation_ml_basic.png'
+---
+
+## Business background
+
+-   The business context around the project
+-   Usages of the project target
+    -   The scope of the project such as only applicable to selected lines of business or product groups
+-   Existing process
+    -   Problems/concerns with the current process
+    -   Performance of the current process
+-   Expectations of the project deliveries
+-   Evaluation metrics of the project outcomes
+-   Upstream/Downstream tools and models
+
+## Modeling
+
+### Conceptual model or guidances from subject-matter experts (SMEs)
+
+-   Ideas and business process theory recommended by SMEs
+    -   Define of the model target/outcome
+    -   Define of the observational unit
+    -   Guide the process of looking for useful data sources
+    -   Provide some guidance about sensible or expected relationships among features or with the target
+-   The context or subject journey that can affect the target of interest
+
+### Data
+
+-   List and short descriptions of all data sources used.
+-   Data processing notes
+    -   Define the model target/outcome in clear technical definition (if needed to be created)
+    -   Describe the data processing pipeline
+-   Train and test set splitting process
+
+### Data insights
+
+-   Description of the training data period/sample
+    -   Counts
+    -   Time period if there is a time dimension
+-   Summary and highlights about the target
+    -   Distribution
+    -   Missingness
+-   Summary and highlights about the independent variables
+    -   Distribution
+    -   Missingness
+-   Any features generated and why
+-   Any key potential (predictive) relationships among features and with the target
+
+### Model methodology
+
+-   A summary of the model ethology
+-   Citations to the theoretical models
+-   Models tested
+-   Model selection
+-   Variable selection
+-   Hyper-parameter tuning
+
+### Model diagnostics
+
+-   Feature importance
+-   Training errors
+    -   Error distribution
+        -   QQ-plot
+    -   Evaluation metrics
+    -   Error versus predicted
+    -   Error versus actual
+    -   Error versus key features
+    -   Errors versus time/index (if autocorrelation is a suspected)
+
+### Model interpretability
+
+-   Model predictions for selected profiles
+
+## Model implementation
+
+### Data input
+
+-   List all the data sources needed to provide data inputs for model run
+-   Summary of any concerns about data gaps between training and production environment \### Production environment
+-   Diagram or description of the production pipeline
+-   Back-up plan for model failures
+
+### Model production
+
+-   A summary of the model production process and all inputs needed.
+-   The documentation should be sufficient for an independent ML Ops team to be able to put the model into production with minimal in-person guidance.
+
+## Model monitoring and maintenance
+
+### Model monitoring
+
+-   Monitoring metrics
+-   Thresholds and actions recommended, for example
+    -   If RMSE is below the lowest threshold, no action needed
+    -   If RMSE is above the lowest threshold, investigate the cause
+    -   If RMSE goes over certain levels, immediately stop the model in production and move to back-up plan
+
+### Model automatic update/retraining schedule
+
+-   Production setup to support automatic training
+    -   Test set evaluation
+    -   Compare current versus new model
+-   Analysis results supported this automatic updating schedule
