@@ -3,11 +3,12 @@ project:
 
 website:
   title: "Sophie Nguyen"
-  #navbar:
-    #left:
-      #- href: index.qmd
-        #text: Home
-      #- productivity/intro.qmd
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - productivity/intro.qmd
+      - projects/intro.qmd
 
 format:
   html:

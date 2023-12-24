@@ -1,11 +1,3 @@
----
-title: "Sophie Nguyen"
-listing:
-  contents:
-    - "*intro.qmd"
-  type: grid
----
-
 Welcome to my personal website.
 
 I am Sophie, a data scientist. I love working with data, finding insights, generating forecasts, and forming practical recommendations.

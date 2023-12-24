@@ -1,0 +1,12 @@
+---
+title: "Projects"
+listing:
+  contents:
+    - "*.qmd"
+    - "!in_development_*.qmd"
+    - "!supporting_material_*.qmd"
+  type: grid
+#image: 'productivity.png'
+---
+
+Individual projects
