@@ -1,9 +1,7 @@
 [
   {
-    "listing": "/index.html",
-    "items": [
-      "/productivity/intro.html"
-    ]
+    "listing": "/projects/intro.html",
+    "items": []
   },
   {
     "listing": "/productivity/intro.html",
