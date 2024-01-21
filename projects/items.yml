@@ -1,0 +1,12 @@
+- name: First Item
+  href: https://www.quarto.org
+  custom-field: A custom value
+- name: Second Item
+  href: https://www.rstudio.org
+  custom-field: A second custom value
+- path: https://sophie-huongnguyen.github.io/code_test/
+  image: testing.png
+  title: "Project code test"
+  description: "Some project description"
+  categories: [Testing]
+  author: Sophie Nguyen
