@@ -110,10 +110,11 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#business-background" id="toc-business-background" class="nav-link active" data-scroll-target="#business-background">Business background</a></li>
   <li><a href="#modeling" id="toc-modeling" class="nav-link" data-scroll-target="#modeling">Modeling</a>
   <ul class="collapse">
-  <li><a href="#conceptual-model-or-guidances-from-subject-matter-experts-smes" id="toc-conceptual-model-or-guidances-from-subject-matter-experts-smes" class="nav-link" data-scroll-target="#conceptual-model-or-guidances-from-subject-matter-experts-smes">Conceptual model or guidances from subject-matter experts (SMEs)</a></li>
+  <li><a href="#conceptual-model-in-collaboration-with-subject-matter-experts-smes" id="toc-conceptual-model-in-collaboration-with-subject-matter-experts-smes" class="nav-link" data-scroll-target="#conceptual-model-in-collaboration-with-subject-matter-experts-smes">Conceptual model in collaboration with subject-matter experts (SMEs)</a></li>
   <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">Data</a></li>
   <li><a href="#data-insights" id="toc-data-insights" class="nav-link" data-scroll-target="#data-insights">Data insights</a></li>
   <li><a href="#model-methodology" id="toc-model-methodology" class="nav-link" data-scroll-target="#model-methodology">Model methodology</a></li>
+  <li><a href="#alternative-approaches" id="toc-alternative-approaches" class="nav-link" data-scroll-target="#alternative-approaches">Alternative approaches</a></li>
   <li><a href="#model-diagnostics" id="toc-model-diagnostics" class="nav-link" data-scroll-target="#model-diagnostics">Model diagnostics</a></li>
   <li><a href="#model-interpretability" id="toc-model-interpretability" class="nav-link" data-scroll-target="#model-interpretability">Model interpretability</a></li>
   </ul></li>
@@ -153,25 +154,46 @@ ul.task-list li input[type="checkbox"] {
 <section id="business-background" class="level2">
 <h2 class="anchored" data-anchor-id="business-background">Business background</h2>
 <ul>
-<li>The business context around the project</li>
-<li>Usages of the project target
+<li>The business context
+<ul>
+<li>Line of business</li>
+<li>Volume/severity of the problems</li>
+</ul></li>
+<li>Values added from the project
+<ul>
+<li>Why do we want to invest in this project</li>
+</ul></li>
+<li>Documentation or descriptions of the current processes
+<ul>
+<li>Descriptions</li>
+<li>Its performance</li>
+<li>Pros/cons</li>
+</ul></li>
+<li>Expectations of the project deliveries
+<ul>
+<li>Scope of the project
 <ul>
 <li>The scope of the project such as only applicable to selected lines of business or product groups</li>
 </ul></li>
-<li>Existing process
+<li>Success criterion (if applicable)
 <ul>
-<li>Problems/concerns with the current process</li>
-<li>Performance of the current process</li>
+<li>Performance metrics</li>
 </ul></li>
-<li>Expectations of the project deliveries</li>
-<li>Evaluation metrics of the project outcomes</li>
-<li>Upstream/Downstream tools and models</li>
+</ul></li>
+<li>Evaluation metrics of the project outcomes
+<ul>
+<li>How will the model be evaluated in specific technical definition</li>
+</ul></li>
+<li>Upstream/Downstream tools and models
+<ul>
+<li>A list of downstream models/tools that will consumed the model outputs</li>
+</ul></li>
 </ul>
 </section>
 <section id="modeling" class="level2">
 <h2 class="anchored" data-anchor-id="modeling">Modeling</h2>
-<section id="conceptual-model-or-guidances-from-subject-matter-experts-smes" class="level3">
-<h3 class="anchored" data-anchor-id="conceptual-model-or-guidances-from-subject-matter-experts-smes">Conceptual model or guidances from subject-matter experts (SMEs)</h3>
+<section id="conceptual-model-in-collaboration-with-subject-matter-experts-smes" class="level3">
+<h3 class="anchored" data-anchor-id="conceptual-model-in-collaboration-with-subject-matter-experts-smes">Conceptual model in collaboration with subject-matter experts (SMEs)</h3>
 <ul>
 <li>Ideas and business process theory recommended by SMEs
 <ul>
@@ -227,6 +249,10 @@ ul.task-list li input[type="checkbox"] {
 <li>Variable selection</li>
 <li>Hyper-parameter tuning</li>
 </ul>
+</section>
+<section id="alternative-approaches" class="level3">
+<h3 class="anchored" data-anchor-id="alternative-approaches">Alternative approaches</h3>
+<p>Documentation of other approaches/experiments tested - Descriptions - Performance - Why not selected</p>
 </section>
 <section id="model-diagnostics" class="level3">
 <h3 class="anchored" data-anchor-id="model-diagnostics">Model diagnostics</h3>
