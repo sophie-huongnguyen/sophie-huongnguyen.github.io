@@ -12,19 +12,28 @@ image: 'documentation_ml_basic.png'
 
 ## Business background
 
--   The business context around the project
--   Usages of the project target
-    -   The scope of the project such as only applicable to selected lines of business or product groups
--   Existing process
-    -   Problems/concerns with the current process
-    -   Performance of the current process
+-   The business context
+    -   Line of business
+    -   Volume/severity of the problems
+-   Values added from the project
+    -   Why do we want to invest in this project
+-   Documentation or descriptions of the current processes
+    -   Descriptions
+    -   Its performance
+    -   Pros/cons
 -   Expectations of the project deliveries
+    -   Scope of the project
+        -   The scope of the project such as only applicable to selected lines of business or product groups
+    -   Success criterion (if applicable)
+        -   Performance metrics
 -   Evaluation metrics of the project outcomes
+    -   How will the model be evaluated in specific technical definition
 -   Upstream/Downstream tools and models
+    -   A list of downstream models/tools that will consumed the model outputs
 
 ## Modeling
 
-### Conceptual model or guidances from subject-matter experts (SMEs)
+### Conceptual model in collaboration with subject-matter experts (SMEs)
 
 -   Ideas and business process theory recommended by SMEs
     -   Define of the model target/outcome
@@ -63,6 +72,13 @@ image: 'documentation_ml_basic.png'
 -   Model selection
 -   Variable selection
 -   Hyper-parameter tuning
+
+### Alternative approaches
+
+Documentation of other approaches/experiments tested
+-   Descriptions
+-   Performance
+-   Why not selected
 
 ### Model diagnostics
 
